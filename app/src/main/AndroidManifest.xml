@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.saharsh.chatapp">
+    package="com.kids.chatapp">
 
     <application
         android:allowBackup="true"
@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ViewProfileActivity"></activity>
+        <activity android:name="com.kids.chatapp.ViewProfileActivity"></activity>
         <activity
-            android:name=".StartActivity"
+            android:name="com.kids.chatapp.StartActivity"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,22 +20,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RegisterActivity"
-            android:parentActivityName=".StartActivity"
+            android:name="com.kids.chatapp.RegisterActivity"
+            android:parentActivityName="com.kids.chatapp.StartActivity"
             android:windowSoftInputMode="stateAlwaysHidden" />
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.kids.chatapp.MainActivity" />
         <activity
-            android:name=".LoginActivity"
-            android:parentActivityName=".StartActivity"
+            android:name="com.kids.chatapp.LoginActivity"
+            android:parentActivityName="com.kids.chatapp.StartActivity"
             android:windowSoftInputMode="stateAlwaysHidden" />
-        <activity android:name=".MessageActivity" />
+        <activity android:name="com.kids.chatapp.MessageActivity" />
         <activity
-            android:name=".ResetPasswordActivity"
-            android:parentActivityName=".LoginActivity"
+            android:name="com.kids.chatapp.ResetPasswordActivity"
+            android:parentActivityName="com.kids.chatapp.LoginActivity"
             android:windowSoftInputMode="stateAlwaysHidden" />
 
         <service
-            android:name=".Notifications.MyFirebaseIdService"
+            android:name="com.kids.chatapp.Notifications.MyFirebaseIdService"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -43,7 +43,7 @@
             </intent-filter>
         </service>
         <service
-            android:name=".Notifications.MyFirebaseMessaging"
+            android:name="com.kids.chatapp.Notifications.MyFirebaseMessaging"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
