@@ -109,10 +109,10 @@ public class ProfileFragment extends Fragment {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
                         if (task.isSuccessful()){
-                         //   Toast.makeText(getContext(),"Profile Updated...", Toast.LENGTH_SHORT);
+                            Toast.makeText(getContext(),"Profile Updated...", Toast.LENGTH_SHORT);
                         }
                         else{
-                         //   Toast.makeText(getContext(),"Unable to Save...", Toast.LENGTH_SHORT);
+                            Toast.makeText(getContext(),"Unable to Save...", Toast.LENGTH_SHORT);
 
                         }
                     }
