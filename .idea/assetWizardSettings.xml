@@ -150,7 +150,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/home/saharshpandey/android-studio/plugins/android/lib/android.jar!/images/material_design_icons/image/ic_edit_black_24dp.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/keyboard_voice/baseline_keyboard_voice_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -160,10 +160,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="assetSourceType" value="FILE" />
-                            <entry key="color" value="ffffff" />
-                            <entry key="outputName" value="ic_forgot_password" />
-                            <entry key="sourceFile" value="$USER_HOME$/Downloads/undraw_my_password_d6kg.svg" />
+                            <entry key="color" value="ff0024" />
+                            <entry key="outputName" value="keyboard_voice_red" />
+                            <entry key="sourceFile" value="C:\Users\pc\Downloads\undraw_my_password_d6kg.svg" />
                           </map>
                         </option>
                       </PersistentState>
